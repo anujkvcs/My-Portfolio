@@ -3,7 +3,7 @@ import path from "path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/My-Portfolio/", // <-- This must match your repo name!
+  base: "/My-Portfolio", // <-- This must match your repo name!
   plugins: [react()],
   resolve: {
     alias: {
