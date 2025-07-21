@@ -3,11 +3,10 @@ import path from "path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/My-Portfolio", // <-- This must match your repo name!
+  base: "/My-Portfolio/", // <-- MUST have trailing slash and match your repo name exactly!
   plugins: [react()],
   resolve: {
     alias: {
-      // eslint-disable-next-line no-undef
       "@": path.resolve(__dirname, "./src"),
     },
   },
