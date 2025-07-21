@@ -17,6 +17,14 @@ const projects = [
     tags: ["TypeScript", "JavaScript", "CSS"],
     demoUrl: "https://little-lemon-rho-three.vercel.app/",
   },
+  {
+    id: 3,
+    title: "Paradise Nursery Shopping App",
+    description: "A plant shopping app with a landing page, categorized product listings, and a fully functional cart page. Built with React and Tailwind CSS, it includes dynamic cart updates, responsive design, and user-friendly navigation.",
+    image: "/projects/project3.png", // Make sure to add this image in your public folder under /projects/
+    tags: ["React", "CSS", "JavaScript"],
+    demoUrl: "https://anujkvcs.github.io/e-plantShopping/", // Replace with your actual deployed URL
+  },
 ];
 
 export const ProjectsSection = () => {
