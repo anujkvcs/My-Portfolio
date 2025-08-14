@@ -1,10 +1,8 @@
 import {
-  Linkedin,
   Mail,
   MapPin,
   Phone,
   Send,
-  Twitter,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
@@ -65,7 +63,7 @@ export const ContactSection = () => {
                     <Phone className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-medium">Phone</h4>
+                    <h4 className="font-medium">Mobile</h4>
                     <a
                         href="tel:+917307872007"
                         className="text-muted-foreground hover:text-primary transition-colors"
@@ -80,7 +78,7 @@ export const ContactSection = () => {
                     <MapPin className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-medium">Location</h4>
+                    <h4 className="font-medium">Address</h4>
                     <p className="text-muted-foreground hover:text-primary transition-colors">
                       Lucknow, Uttar Pradesh, India
                     </p>
@@ -88,25 +86,6 @@ export const ContactSection = () => {
                 </div>
               </div>
 
-              <div className="pt-8">
-                <h4 className="font-medium mb-4">Connect With Me</h4>
-                <div className="flex space-x-4 justify-center">
-                  <a
-                      href="https://www.linkedin.com/in/anujkcs/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                  >
-                    <Linkedin />
-                  </a>
-                  <a
-                      href="https://x.com/anujkvcs"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                  >
-                    <Twitter />
-                  </a>
-                </div>
-              </div>
             </div>
 
             {/* Contact Form */}
